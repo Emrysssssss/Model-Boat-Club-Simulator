@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1138331384927246, guid: 55e83a7c4a6b9dd47a1f7f2c0ca7ffe0, type: 3}
       propertyPath: m_Name
-      value: Boat Template
+      value: Boat Tow Template Variant
       objectReference: {fileID: 0}
     - target: {fileID: 4302473192453644, guid: 55e83a7c4a6b9dd47a1f7f2c0ca7ffe0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -52,6 +52,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114663801763493746, guid: 55e83a7c4a6b9dd47a1f7f2c0ca7ffe0,
+        type: 3}
+      propertyPath: data
+      value: 
+      objectReference: {fileID: 11400000, guid: 45a71dd2e55b6244392b0d0a3e8f8b85,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
