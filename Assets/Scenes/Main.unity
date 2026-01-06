@@ -246,6 +246,15 @@ MonoBehaviour:
   boatHouseA: {fileID: 1138331384927246, guid: f4fd60554feb830408409b09d8c5f2d0, type: 3}
   boatHouseB: {fileID: 1138331384927246, guid: 9d1d0b91403a8814ab6853947579bad9, type: 3}
   boatHouseC: {fileID: 1138331384927246, guid: be18bd8f4343bb14daad0d183019b6aa, type: 3}
+  boatsVariants:
+  - {fileID: 1905611661491656124, guid: 7752ce08cf0647a47b6991cfb832343a, type: 3}
+  - {fileID: 5646963032535296938, guid: d8154dcdf044fae4b978b51cfe101831, type: 3}
+  - {fileID: 5833520355429865117, guid: cefb9de1f9552604b9219239812d475a, type: 3}
+  - {fileID: 8034312667289919980, guid: bf12e4d0fbbab4d4dafc7e09d5b4b52f, type: 3}
+  - {fileID: 1259973642261689970, guid: 6170b19d6ba2846479d5ea82daa03445, type: 3}
+  - {fileID: 1212818740174849872, guid: c2bca17fb0e35fb4e90fd8d5a9c1800c, type: 3}
+  - {fileID: 177727419961537533, guid: d6abbd73bb7d4694d912f4a1c28631b7, type: 3}
+  - {fileID: 571939650429388703, guid: 299d746a1ad67da44bb602b9df21bfae, type: 3}
 --- !u!4 &576343055
 Transform:
   m_ObjectHideFlags: 0
