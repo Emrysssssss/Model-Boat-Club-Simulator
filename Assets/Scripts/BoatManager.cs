@@ -80,24 +80,28 @@ public class BoatManager : MonoBehaviour
         GameObject randomBoat = null;
 
         // On prend une variable aléatoire entre 0.000 et 1.000
-        float randomValue = Random.value;
-        if (randomValue < 0.333f)
-        {
-            randomBoat = boatHouseA;
-        }
-        else if (randomValue < 0.666f)
-        {
-            randomBoat = boatHouseB;
-        }
-        else
-        {
-            randomBoat = boatHouseC;
-        }
+        int randomValue = Random.Range(0, boatsVariants.Count);
+        randomBoat = GetGameObjectAtIndex(randomValue);
+
         // TODO Je ne vais pas rajouter un "if..else" pour chaque nouveau bateau ?!
         // Il devrait y avoir un moyen de réunir mes Prefab dans une liste et
         // d'en choisir un selon sa place dans la liste...
 
         return randomBoat;
+    }
+
+    GameObject GetGameObjectAtIndex(int index)
+    {
+        if (boatsVariants == null || boatsVariants.Count == 0)
+        {
+            return null;
+        }
+
+        if (index < 0 || index >= boatsVariants.Count)
+        {
+            return null;
+        }
+        return boatsVariants[index];
     }
 
     private void LateUpdate()
