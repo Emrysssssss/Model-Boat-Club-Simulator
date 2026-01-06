@@ -34,6 +34,8 @@ public class BoatManager : MonoBehaviour
     [SerializeField]
     private GameObject boatHouseC = null;
 
+    public List<GameObject> boatsVariants = new List<GameObject>();
+
     private List<GameObject> boatsInstances = new List<GameObject>();
 
     private void Awake()
